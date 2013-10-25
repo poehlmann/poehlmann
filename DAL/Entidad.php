@@ -10,7 +10,7 @@ abstract class Entidad {
 	}
 	
 	public function campoModificado($nombre, $valor) {
-		$modificaciones[$nombre] = $valor;
+		$this->modificaciones[$nombre] = $valor;
 	}
 	
 	public abstract function todosCampos();
